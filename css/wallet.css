@@ -1,0 +1,723 @@
+/* fonts */
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/Interstate-Hairline.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/Interstate-ExtraLight.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Interstate-Light.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: italic;
+    font-weight: 300;
+    src: url(../fonts/Interstate-LightItalic.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Interstate-Thin.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/Interstate-Regular.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/Interstate-Bold.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/Interstate-Black.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Interstate;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/Interstate-UltraBlack.otf) format("opentype")
+}
+
+/* end custom fonts */
+/*	General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Interstate", Arial, sans-serif;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dff4e7+0,eeeeee+33,eeeeee+66,dff4e7+100 */
+    background: #dff4e7;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #dff4e7 0%, #eeeeee 33%, #eeeeee 66%, #dff4e7 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #dff4e7 0%,#eeeeee 33%,#eeeeee 66%,#dff4e7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #dff4e7 0%,#eeeeee 33%,#eeeeee 66%,#dff4e7 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dff4e7', endColorstr='#dff4e7',GradientType=1 );
+    /* IE6-9 */
+    font-size: 13px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0px;
+}
+:focus-visible {outline:none}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+figure {
+    margin: 0px;
+}
+
+body #wallet {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Interstate", arial, serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 113%;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+/* lightbox */
+body #mc_embed_signup .indicates-required {display:none}
+body #mc_embed_signup .mc-field-group label {text-transform:uppercase;font-family: 'Interstate',arial,sans-serif;font-weight:300;color: #fff;}
+body #mc_embed_signup h2 {font-size:30px;font-family: 'Interstate',arial,sans-serif;font-weight:600;color: #fff;}
+body #mc_embed_signup {
+    padding: 0px;
+    padding-top: 0px;
+    padding-right:0px;
+    width:100%;
+    border-radius: 20px;
+    background: rgb(20,83,78);
+    background: -moz-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%, rgba(3,35,33,1) 50%, rgba(3,35,33,1) 100%);
+    background: -webkit-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%,rgba(3,35,33,1) 100%);
+    background: radial-gradient(circle at 105% 50%, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14534e', endColorstr='#032321',GradientType=1 );
+    box-shadow: 1px 0px 20px 0px #a6aba6;
+    }
+body #mc_embed_signup .mc-field-group {margin-right:0px;width: 100% !important;}
+body #mc_embed_signup img {display:none;}
+body #mc_embed_signup .helper_text {background: transparent;}
+body #mc_embed_signup .button {
+    background: #E1F51F;
+    padding: 4px 64px;
+    padding-bottom: 1px;
+    font-size: 18px;
+    color: #052C29;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    height: auto;
+    font-family: 'Interstate',arial,sans-serif;
+}
+
+/* hero section*/
+body #wallet #hero {
+    background: rgb(20,83,78);
+    background: -moz-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%, rgba(3,35,33,1) 50%, rgba(3,35,33,1) 100%);
+    background: -webkit-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%,rgba(3,35,33,1) 100%);
+    background: radial-gradient(circle at 105% 50%, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14534e', endColorstr='#032321',GradientType=1 );
+    position: relative;
+    max-height: 791px;
+}
+
+body #wallet #hero #contents {
+    overflow: hidden;
+    padding: 4% 8%;
+    padding-top: 3.5%;
+    /* position: relative; */
+    padding-left: 10%;
+    max-height: 791px;
+}
+
+body #wallet #hero #contents #logo-login {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+body #wallet #hero div.logo {
+    display: flex;
+    height: 55px;
+    align-items: center;
+}
+
+body #wallet #hero .logo h3 {
+    color: #dff4e7;
+    font-size: 28px;
+    margin: 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30px
+}
+
+body #wallet #hero .logo h3 span {
+    font-weight: 300;
+}
+
+body #wallet #hero div.logo figure {
+    margin-right: 10px;
+    flex-shrink: 0;
+    display: table;
+    max-width: 24%;
+}
+
+body #wallet #hero h1 {
+    color: #dff4e7;
+}
+
+body #wallet #hero h1 span {
+    color: #E1F51F;
+}
+
+body .butn {
+    background: #E1F51F;
+    padding: 9px 64px;
+    padding-bottom: 6px;
+    font-size: 18px;
+    color: #052C29;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+}
+body .butn.coming {background:#bcbec0;transition:0.3s;display: inline-block;text-align: center;}
+body .login .butn.coming {
+    color:#daf5e6;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    }
+body .butn.coming span {display:none; transition:0.3s;}
+body .butn.coming:before {content:'COMING SOON';transition:0.3s;z-index: 2;position: relative;display: block;}
+body #wallet #hero .text p {
+    color: #dff4e7;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 85%;
+    padding-bottom: 36px;
+    font-weight: 200;
+}
+
+body #wallet #hero div.login {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    text-align: right;
+    flex-shrink: 1;
+}
+body #wallet #hero div.login figure {flex-shrink:1;width: 40px;}
+body #wallet #hero div.login svg {
+    margin-left: 0px;
+    width: 32px;
+}
+
+body #wallet #hero div.login span {
+    color: #dff4e7;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+body #wallet #hero div.text {
+    width: 53%;
+    padding-top: 30px;
+    z-index: 3;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+body #wallet #hero div.socials {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: flex-end;
+    z-index: 2;
+    position: relative;
+    margin-top: -40px;
+}
+
+body #wallet #hero div.socials div.socials {
+    display: flex;
+    flex-flow: row;
+    max-width: 200px;
+}
+
+body #wallet #hero div.socials div.socials a:last-of-type figure {
+    padding-right: 0px;
+}
+
+body #wallet #hero div.socials figure {
+    padding: 10px;
+}
+
+body #wallet #hero div.audit {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    max-width: 220px;
+    color: #dff4e7;
+    font-size: 16px;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+body #wallet #hero div.audit p {
+    margin: 0px;
+    margin-right: 10px;
+}
+
+body #wallet #hero div.audit figure {
+    max-width: 50%;
+    width: 50% !important;
+    padding: 0px !important;
+    display: flex;
+}
+
+body #wallet #hero div.phone {
+    position: absolute;
+    right: 27%;
+    bottom: -21%;
+    width: 14.5%;
+    z-index: 2;
+}
+
+body #wallet #hero figure.logo-bg {
+    position: absolute;
+    top: 0px;
+    right: 2.5%;
+    z-index: 0;
+    /* max-width: 600px; */
+    bottom: 0px;
+    overflow: hidden;
+}
+
+figure.logo-bg img {
+    float: right;
+}
+
+/* safe, convenient, secure */
+body #wallet #safe {
+    display: inline-block;
+    width: 100%;
+}
+
+body #wallet #safe .numbers {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+body #wallet #safe .numbers .number {
+    width: 17%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+body #wallet #safe .numbers .number p {
+    display: flex;
+    flex-flow: column;
+    font-weight: 500;
+    color: #5A5A5A
+}
+
+body #wallet #safe .numbers .number p span {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #052C29;
+}
+
+body #wallet #safe .numbers .number p {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* secure from the ground up */
+body #wallet #safe .secure {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+body #wallet #safe .secure .secure-text {
+    display: flex;
+    overflow: hidden;
+    border-radius: 30px;
+    min-width: 1200px;
+    flex-flow: row;
+    position: relative;
+    justify-content: center;
+    margin-top: 80px;
+    background: rgb(20,83,78);
+    background: -moz-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%, rgba(3,35,33,1) 50%, rgba(3,35,33,1) 100%);
+    background: -webkit-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%,rgba(3,35,33,1) 100%);
+    background: radial-gradient(circle at center, rgb(18 71 67) 50%,rgba(3,35,33,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14534e', endColorstr='#032321',GradientType=1 );
+}
+
+body #wallet #safe .secure .secure-text figure {width: 50%;position: relative;}
+body #wallet #safe .secure .secure-text figure img {position: absolute;left: 0px;bottom: 0px;top: 0px;max-width: 800px;}
+body #wallet #safe .secure .secure-text .right {width: 50%;position: relative;margin-bottom: 34px;padding-right: 40px;}
+body #wallet #safe .secure .secure-text .right h3 {color: #DFF4E7;text-transform: uppercase;font-size: 26px;margin-top: 50px;}
+body #wallet #safe .secure .secure-text .right p {color: #DFF4E7;font-size: 18px;text-transform: uppercase;margin: 0px;font-weight: 300;}
+body #wallet #safe .secure .secure-text .right .check {display: flex;margin-bottom: 14px;}
+body #wallet #safe .secure .secure-text .right .check figure {width: 40px;flex-shrink: 0;margin-top: -2px;}
+body #wallet h3.safe {width:100%;text-align:center;font-size: 26px;font-weight:500;text-transform:uppercase;margin: 90px 0px;margin-bottom: 60px;color: #052C29;}
+
+/* join, buy, earn */
+body #wallet #safe .jbe {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+body #wallet #safe .jbe .container {width: 80%;display: flex;justify-content: space-around;}
+body #wallet #safe .jbe .container div {width:30%; padding:1%; text-align:center;}
+body #wallet #safe .jbe .container div h4 {font-size: 20px;text-transform:uppercase;margin:0px;font-weight: 500;}
+body #wallet #safe .jbe .container div p {text-transform:uppercase;font-size: 16px;font-weight:500;color:#5A5A5A;padding: 0% 14%;}
+body #wallet #safe .jbe .container div figure {padding: 15px 70px;padding-top: 0px;}
+body #wallet #safe .jbe .container div figure img {width:40px;min-width: 40px;}
+body #wallet hr.rule {width:20%; display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #052C29;
+  padding: 0; margin-top: 70px;margin-bottom:100px;}
+
+body #wallet #staking {
+    background: rgb(20,83,78);
+    background: -moz-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%, rgba(3,35,33,1) 50%, rgba(3,35,33,1) 100%);
+    background: -webkit-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%,rgba(3,35,33,1) 100%);
+    background: radial-gradient(circle at 105% 50%, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14534e', endColorstr='#032321',GradientType=1 );
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0px;
+    }
+body #wallet #staking .wrapper {width:70%;max-width:700px;margin-top: 20px;}
+body #wallet #staking h3 {color: #DFF4E7;text-transform: uppercase;font-size: 26px;margin-bottom: 10px;text-align: center;}
+body #wallet #staking .stake-calc h3 {color: #052C29;}
+body #wallet #staking p {color: #DFF4E7;font-size: 18px;text-transform: uppercase;font-weight: 300; text-align:center;}
+body #wallet #staking p small {font-size:11px; color:#052C29; margin-bottom:0px;}
+body #wallet #staking p.terms {margin-bottom: -20px;}
+/* tabs */
+body #wallet #staking .tabs {width:100%;padding:0px;margin:0px;}
+
+body #wallet #staking #first-tab-group {width:100%;}
+body #wallet #staking .tabs li {
+    float: left;
+    width: 33.333333333%;
+    list-style: none;
+    overflow: hidden;
+        border-right: 1px solid #595959;
+  }
+  body #wallet #staking .tabs a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #888;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 0;
+    /* border-bottom: 2px solid #888; */
+    background: #dcdcdc;
+    transition:0.3s;
+    box-shadow: inset 0px -2px 8px 0px #052C29;
+    width: 110%;
+    margin-left: -5%;
+  }
+body #wallet #staking .tabs li:nth-of-type(3){border-right:none;}
+ body #wallet #staking .tabs a:hover,
+ body #wallet #staking .tabs a.active {
+    background: #124743;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    /* margin: 0px; */
+    color: #fff;
+    transition: 0.3s;
+ box-shadow: none;
+  }
+
+body #wallet #staking .stake-calc {display:flex;background:#fff;width: 100%;/* min-width: 699px; */flex-flow:column;margin-top: 20px;margin-bottom:60px;padding: 40px;padding-top: 0px;}
+body #wallet #staking .stake-calc .apy {display:flex;margin: 20px;margin-top: 10px;padding: 0px 20px;background-color: #f0f0f0;border-radius: 10px;padding-top: 2px;flex-flow: column;}
+body #wallet #staking .stake-calc .apy .wrap {display:flex;flex-flow:row; justify-content:space-between;}
+body #wallet #staking .stake-calc .apy p {color:#5A5A5A}
+body #wallet #staking .stake-calc .apy p a i {color:#124743}
+body #wallet #staking .stake-calc .apy p:first-of-type {text-align:left;}
+body #wallet #staking .stake-calc .apy p:last-of-type {color:#052C29; font-weight:500;}
+body #wallet #staking .stake-calc p.titles {text-transform: uppercase;font-size: 18px;font-weight: 300;text-align:left;color:#052C29;width: 200px;float: left;position: absolute;top: -10px;}
+body #wallet #staking .stake-calc #staking-amount, body #wallet #staking .stake-calc #node-amount, body #wallet #staking .stake-calc #days, body #wallet #staking .stake-calc #reward {padding:20px;text-transform: uppercase;font-size: 18px;font-weight: 300;position: relative;/* margin-top: 10px; */padding-top: 0px;padding-bottom: 0px;}
+body #wallet #staking .stake-calc #staking-amount {margin-top:0px}
+body #wallet #staking .stake-calc #reward {padding-bottom:0px}
+body #wallet #staking .stake-calc .node-slider, body #wallet #staking .stake-calc .staking-amount-slider, body #wallet #staking .stake-calc .days-slider {margin: 30px 0px;}
+body #wallet #staking .stake-calc #staking-amount .staking-amount-show, body #wallet #staking .stake-calc #days .months-amount-show, body #wallet #staking .stake-calc .node-amount-show{float:right;color:#052C29;font-weight:500;margin-top: 10px;}
+body #wallet #staking .stake-calc .staking-amount-slider, body #wallet #staking .stake-calc .node-slider, body #wallet #staking .stake-calc .days-slider {margin-top:50px;}
+body #wallet #staking .stake-calc #reward p {color:#052C29;text-align:left;padding-right: 10px;}
+body #wallet #staking .stake-calc #reward .reward {display:flex; justify-content:space-between; align-items:center;}
+body #wallet #staking .stake-calc #reward .reward:first-of-type {border-bottom:2px solid #dad8d8;}
+body #wallet #staking .stake-calc #reward .reward:last-of-type {padding-top:5px; margin-bottom:30px;}
+body #wallet #staking .stake-calc #reward .reward .daily-reward-show, body #wallet #staking .stake-calc #reward .reward .yearly-reward-show {font-size: 24px;font-weight:500;text-align: right;color: #052C29;}
+body #wallet #staking .stake-calc .lowhigh {display:flex;justify-content:space-between;margin:0px;padding-bottom:0px;margin-top: -25px;}
+body #wallet #staking .stake-calc .lowhigh p {color:#5A5A5A;font-size:14px;}
+
+/* offset */
+body #wallet div#offset {background:#fff;padding: 80px 0px;padding-bottom: 20px;z-index: 1;position: relative;text-align: center;}
+body #wallet div#offset img {max-width: 105px;}
+body #wallet div#offset h3.offset, body #wallet div#offset h3.offset span {font-size: 50px;}
+body #wallet div#offset h3.offset span {font-style:italic; color:#A1D2B4;}
+
+/* footer */
+body #wallet div#footer .wrap .row a p {font-size: min(max(12px, 3vw), 18px);}
+body #wallet div#footer {display:flex;align-content:center;justify-content:center;flex-flow: column;flex-wrap: wrap;width: 100%;}
+body #wallet div#footer #copyright {margin-top: 60px;margin-bottom: 60px;text-align: center;}
+body #wallet div#footer .wrap {display:flex;width:80%;border: 2px solid #052C29;border-left:none;border-right:none;padding:10px 0px;text-transform:uppercase;color:#052C29;z-index: 1;}
+body #wallet div#footer .wrap .row {width: 20%;flex-grow: 1;}
+body #wallet div#footer .wrap .row a {text-decoration:none;}
+body #wallet div#footer .wrap .row.mobile {display:none}
+body #wallet div#footer .wrap .row.left {justify-content:space-between;display: flex;flex-flow: column;padding: 1%;align-items: center;font-weight: 100;width: auto;flex-grow: 5;}
+body #wallet div#footer .wrap .row.left figure {text-align:center;}
+body #wallet div#footer .wrap .row.left figure img {max-width: 190px;}
+body #wallet div#footer .wrap .row.social {display:flex;justify-content: space-around;align-items: center;align-self: flex-end;width: 15%;}
+body #wallet div#footer .wrap .row.social figure {height: 100%;padding-bottom: 3%;width: 69%;padding: 2%;}
+body #wallet div#footer .wrap .row a.button {background: #e2f51e;padding: 6px 5px;padding-top: 9px;border-radius:30px;font-size: 18px;font-weight:500;color:#052C29;/* border:1px solid #052C29; */width: 70%;text-align: center;margin-top: 20px;margin-bottom: 10px;}
+body #wallet div#footer .wrap .row h4, body #wallet div#footer .wrap .row #accordion-1 .head p {font-size: 20px;font-weight:500;margin: 14px;text-align: left;padding-left: 15%;}
+body #wallet div#footer .wrap .row a p {font-weight:300;color: #052C29;margin: 14px;text-align: left;padding-left: 15%;font-size: 16px;}
+body #wallet div#footer .wrap .row a:hover {text-decoration:underline;}
+
+/**
+ * Tooltip Styles
+ */
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  /* Hide the tooltip content by default */
+  [data-tooltip]:before,
+  [data-tooltip]:after {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  /* Position tooltip above the element */
+  [data-tooltip]:before {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 7px;
+    width: 160px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #052C29;
+    background-color: hsla(0, 0%, 20%, 0.9);
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  /* Triangle hack to make tooltip look like a speech bubble */
+  [data-tooltip]:after {
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #052C29;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+  }
+  
+  /* Show tooltip content on hover */
+  [data-tooltip]:hover:before,
+  [data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+
+@media screen and (max-width: 1500px) {
+/* font resizing */
+h1 {font-size: 40px;}
+body #wallet #hero .text p {font-size:22px;}
+body #wallet #safe .secure .secure-text {min-width:90%}
+
+/* other elements */
+body #wallet #safe .numbers .number {width:25%}
+body #wallet #safe .jbe .container {width:100%}
+}
+@media screen and (max-width: 1150px) {
+body #wallet #safe .secure .secure-text figure img {right:10%; left:auto;}
+body #wallet #hero div.socials {margin-top:30px}
+body #wallet #hero div.socials {align-items: flex-start;}
+body #wallet #hero div.audit {justify-content:flex-start;}
+    body #wallet #hero div.socials {width: 200px;}
+    body #wallet #hero div.socials div.socials {width: 100%;}
+        body #wallet #hero div.socials div.socials a {display:flex; width:90px}
+    body #wallet #hero div.socials figure {padding: 7px;height: 36px;width: 40px;}
+    body #wallet #hero div.phone {right: 10%;width: 30%;}
+    body #wallet div#footer .wrap .row.social {display:none;}
+    body #wallet div#footer .wrap .row h4,  body #wallet div#footer .wrap .row a p {padding-left:0px;}
+}
+@media screen and (max-width: 1000px) {
+    body #wallet div#footer .wrap .row h4, body #wallet div#footer .wrap .row #accordion-1 .head p {font-size:16px}
+    h1 {font-size:32px}
+    body #wallet #hero div.text {padding-top:20px;}
+    body #wallet #safe .numbers .number p, body #wallet #safe .secure .secure-text .right p, body #wallet #safe .jbe .container div p, body #wallet #staking p, body #wallet #staking .stake-calc p.titles {font-size:16px;}
+body #wallet h3.safe {font-size:30px;}
+    body .butn {font-size:18px}
+    body #wallet #safe .jbe .container div h4 {font-size: 22px;}
+    body #wallet #hero .text p {padding-bottom: 7px;}
+    body #wallet div#footer .wrap{width:100%;}
+    body #wallet div#footer .wrap .row {display:none;}
+    body #wallet div#footer .wrap .row h4,body #wallet div#footer .wrap .row a p, body #wallet div#footer .wrap .row a p, body #wallet div#footer .wrap .row #accordion-1 .head p {padding-left:5%;}
+    body #wallet div#footer .wrap .row.social {display:none;}
+	body #wallet div#footer .wrap .row {width:25%;}
+    body #wallet div#footer .wrap{justify-content: space-between;}
+    body #wallet div#footer .wrap .row.mobile {display:flex;flex-flow: column;flex-grow: 1;flex-shrink: 0;width: 50%;}
+    body #wallet div#footer .wrap .row #accordion-1 .head {padding: 0px; border-bottom: 0px; /* justify-content: space-between; */ width: 100%;}
+    body #wallet div#footer .wrap .row .accordion.container {width:100%;}
+	#accordion-1 .head figure {display: flex;height: auto;width: 16px;margin-top: -2px;}
+	#accordion-1 .active figure img {transform: rotate(180deg);}
+	body #wallet div#footer .wrap .row #accordion-1 .head p {font-weight:300}
+	body #wallet div#footer #accordion-1 .content a p {font-size: min(max(12px, 3vw), 16px);font-weight: 200;width: 100%;}
+	#accordion-1 .content {width:100%;}
+	#accordion-1 .content a {width:100%}
+	body #wallet div#footer .wrap {width:100%}
+    body #wallet div#offset h3.offset, body #wallet div#offset h3.offset span{font-size:40px;}
+    body #wallet #staking .tabs a, body #wallet #staking .tabs a:hover, body #wallet #staking .tabs a.active {font-size:16px;}
+}
+@media screen and (max-width: 799px) {
+body #wallet #staking .wrapper {width:80%}
+}
+@media screen and (max-width: 750px) {
+    body #wallet #safe .numbers {flex-wrap:wrap;margin-top: 60px;}
+    body #wallet #safe .numbers .number {width:50%; margin-top:50px}
+    body #wallet #hero div.text {width:70%}
+    body #wallet #safe .secure .secure-text figure img {right:0%}
+    body #wallet #safe .secure .secure-text .right {width:90%;}
+    body #wallet #staking .wrapper {width:90%;min-width:unset;}
+    body #wallet #hero figure.logo-bg img {height: 800px;width: 800px;aspect-ratio: 1;max-width: unset;max-height: unset;}
+
+}
+@media screen and (max-width: 600px) {
+    body #wallet #safe .numbers {margin-top:20px}
+body #wallet #hero div.phone {position:relative;bottom: auto;left: auto;right: auto;width: 100%;text-align:center;display:inline-block;}
+    body #wallet #hero div.phone figure {width: 300px;margin: 0 auto;}
+    body #wallet #safe {margin-top: 270px;}
+    body #wallet #hero div.text {width:100%;}
+    body #wallet #safe .jbe .container {flex-wrap:wrap;}
+    body #wallet #safe .jbe .container div p {padding:0px}
+  body #wallet #safe .jbe .container div {width:70%;padding-bottom: 40px;}
+    body #wallet #hero .text p {max-width:100%;}
+    
+    body #wallet #safe .secure .secure-text figure {width:0%;}
+    body #wallet #safe .secure .secure-text .right {width:100%; padding-left:40px;}
+    body #wallet #safe .secure .secure-text {width:90%;}
+    body #wallet div#footer .wrap .row a.button {font-size:16px;}
+    body #wallet #hero div.login span, body .login .butn.coming {font-size: 16px;}
+    body #wallet #hero #contents {padding:5% 4%;}
+    body #wallet #staking {padding:0px}
+    body #wallet #staking .stake-calc p.titles {float:none; position:relative;}
+    body #wallet #staking .stake-calc #staking-amount .staking-amount-show, body #wallet #staking .stake-calc #days .months-amount-show {float:none; text-align:right}
+body #wallet #staking .stake-calc {padding:10px;padding-bottom: 40px;margin-top: 14px;border-radius: 0px 0px 20px 20px;}
+    body #wallet #staking .stake-calc #reward .reward .daily-reward-show, body #wallet #staking .stake-calc #reward .reward .yearly-reward-show {font-size: 20px;}
+body #wallet #safe .secure .secure-text .right h3 {margin-top:40px}
+    body #wallet #safe .secure .secure-text .right {margin-bottom:30px;}
+    body #wallet #hero #contents {}
+    body #wallet #hero div.socials {bottom:0px;right:0px;display: block; margin-top:0px;}
+    body #wallet #staking .stake-calc .staking-amount-slider, body #wallet #staking .stake-calc .days-slider {margin-top:20px;}
+body #wallet #safe .jbe {padding-bottom: 0px;}
+    #staking .stake-calc #reward {padding-bottom: 6px !important;}
+        body .butn {font-size:16px}
+    body #wallet #staking .tabs a, body #wallet #staking .tabs a:hover, body #wallet #staking .tabs a.active {font-size:14px; padding:20px 5px}
+    
+body #wallet #staking .wrapper { width: 90%; min-width: unset; overflow: hidden;  border-radius: 20px;}
+}
+
+@media screen and (max-width: 500px) {
+    body #wallet #hero div.logo, body #wallet #hero div.login {height: 40px;}
+body #wallet #hero .logo h3 {font-size: 20px;line-height:110%}
+body #wallet #hero h1 {font-size: 26px;}
+    body #wallet #hero .text p, body #wallet #safe .jbe .container div h4 {font-size: 16px;line-height: 24px;}
+    body #wallet #safe .numbers {margin-top:0px;}
+    body #wallet #safe .secure .secure-text .right h3, body #wallet h3.safe, body #wallet #staking h3, body #wallet #safe .numbers .number p span {font-size: 22px;}
+body #wallet #safe .numbers .number p, body #wallet #safe .secure .secure-text .right p, body #wallet #safe .jbe .container div p, body #wallet #staking p, body #wallet #staking .stake-calc p.titles, body #wallet div#footer .wrap .row #accordion-1 .head p {font-size: 14px;}
+body #wallet div#footer .wrap {flex-flow:column;}
+body #wallet div#footer .wrap.row{width:100%;flex-basis:100%}
+    body #wallet #staking h3 {margin-top: 46px;}
+    body #wallet #staking .tabs li {width:100%;}
+     body #wallet #staking .tabs li a {border-right:none;}
+    
+}
