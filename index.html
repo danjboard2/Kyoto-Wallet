@@ -4,7 +4,7 @@
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3F5VWCNHRW"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
+	  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
@@ -569,7 +569,7 @@ $("a.butn").click(function() {
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-    <form action="https://Kyotoprotocol.us21.list-manage.com/subscribe/post?u=f41d2684b33f6c493f9032ea4&amp;id=c58c9377b6&amp;f_id=00a4aee1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="?return=thanks" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
         <h2>JOIN THE KYOTO WALLET WHITELIST</h2>
         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
@@ -598,10 +598,16 @@ $("a.butn").click(function() {
 	event.preventDefault();
 });
 </script>
-<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <script>
 	// accordion
 $( document ).ready(function() {
+	let searchParams = new URLSearchParams(window.location.search)
+	searchParams.has('return') // true
+	let param = searchParams.get('return')
+	if(param == 'thanks'){
+		$('.text h1').text('Your email address has been added to the whitelist.');
+	}
+
 	$('.head').click(function(){
 		$(this).toggleClass('active');
 		$(this).parent().find('.arrow').toggleClass('arrow-animate');
