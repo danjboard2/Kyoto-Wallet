@@ -85,6 +85,20 @@ body {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     margin: 0px;
 }
+#signup {background: rgb(20,83,78);
+    background: -moz-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%, rgba(3,35,33,1) 50%, rgba(3,35,33,1) 100%);
+    background: -webkit-radial-gradient(right, circle cover, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%,rgba(3,35,33,1) 100%);
+    background: radial-gradient(circle at 105% 50%, rgba(20,83,78,1) 0%,rgba(3,35,33,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14534e', endColorstr='#032321',GradientType=1 );
+    box-shadow: 1px 0px 20px 0px #a6aba6; padding:20px; border-radius:20px;}
+#signup h2 {color:#fff;}
+#signup {color:#fff;}
+#signup .clear {margin-top:20px; text-align:right;}
+#signup .clear input {background:#E1F51F; padding:10px; border-radius:10px; font-weight:bold;}
+#signup .field-group {display:flex; flex-flow:column;}
+#signup .field-group label {font-size:16px; margin-top:10px;}
+#signup .field-group input {margin-top:10px;height:40px;border-radius:10px;font-size:16px;width: 100%;}
+#signup .indicates-required {text-align: right;}
 :focus-visible {outline:none}
 img {
     max-width: 100%;
